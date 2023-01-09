@@ -1,18 +1,18 @@
 def add(a, b):
     result = a + b
-    print(str(a)+" + "+str(b)+" = "+str(result))
+    print(str(a)+" + "+str(b)+" = "+str(result)+"\n")
 
 def sub(a,b):
     result = a - b
-    print(str(a)+" - "+str(b)+" = "+str(result))
+    print(str(a)+" - "+str(b)+" = "+str(result)+"\n")
 
 def mul(a,b):
     result = a * b
-    print(str(a)+" * "+str(b)+" = "+str(result))
+    print(str(a)+" * "+str(b)+" = "+str(result)+"\n")
 
 def div(a, b):
     result = a / b
-    print(str(a)+" / "+str(b)+" = "+str(result))
+    print(str(a)+" / "+str(b)+" = "+str(result)+"\n")
 
 while True:
     print(" A. Addition\n B. Subtaction\n C. Multiplication\n D. Division\n E. Exit\n")
