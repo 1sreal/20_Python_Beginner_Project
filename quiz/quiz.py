@@ -7,14 +7,17 @@ qiuz = {
     "question1": {
         "question": "How many regions are in ghana"
         "answer" : ["16", "sixteen"]
-    }
+    },
     "question2": {
       "question": "What is the capital town of western north region "
         "answer" : "sefwi wiaso "  
-    }
+    },
     "question3": {
         "question": "How many years did the first president of the Republic of Ghana rule?"
         "answer" : "11 "
-    }
+    },   
     
 }
+score = 0
+for value in key, value in quiz.items:
+     print()
