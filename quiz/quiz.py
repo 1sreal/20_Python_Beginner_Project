@@ -6,7 +6,7 @@
 qiuz = {
     "question1": {
         "question": "How many regions are in ghana"
-        "answer" : ["16", "sixteen"]
+        "answer": "16"
     },
     "question2": {
       "question": "What is the capital town of western north region "
@@ -20,4 +20,14 @@ qiuz = {
 }
 score = 0
 for value in key, value in quiz.items:
-     print()
+     print(value['question'])
+     answer = input ("Answer? ")
+
+     if answer.lower () == value ['answer'].lower():
+        print ('Correct')
+        score = score + 1
+        print("you're score is " + str(score))
+    else:
+        print("Wrong!! ")
+        print("the answer is: " + value['answer'])
+        print("Your score is: " + str(score))  
