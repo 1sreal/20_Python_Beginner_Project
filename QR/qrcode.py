@@ -15,3 +15,4 @@ def generate_qrcode(text):
     img.save("qrimg.png")
 
 generate_qrcode("https://github.com/1sreal")
+#add any prferable link 
